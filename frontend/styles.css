@@ -1,0 +1,71 @@
+/* ================= GLOBAL ================= */
+body {
+    background-color: #f5f7fb;
+}
+
+/* Main container */
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+}
+
+/* ================= CARDS ================= */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+/* ================= METRICS ================= */
+.metric-card {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.04);
+}
+
+.metric-title {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* ================= SECTION ================= */
+.section-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* ================= BUTTON ================= */
+.stButton > button {
+    background: linear-gradient(to right, #2563eb, #1d4ed8);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background: #1d4ed8;
+}
+
+/* ================= INPUT ================= */
+.stTextInput input, .stNumberInput input {
+    border-radius: 8px !important;
+}
+
+/* ================= SIDEBAR ================= */
+section[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e5e7eb;
+}
